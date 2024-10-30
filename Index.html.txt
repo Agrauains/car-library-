@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авто Библиотека</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Авто Библиотека</div>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог машин</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="search-login">
+            <input type="text" placeholder="Поиск...">
+            <button>Вход / Регистрация</button>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="car-card">
+                <img src="car1.jpg" alt="Машина 1">
+                <h3>Машина 1</h3>
+                <p>Краткое описание машины 1.</p>
+            </div>
+            <div class="car-card">
+                <img src="car2.jpg" alt="Машина 2">
+                <h3>Машина 2</h3>
+                <p>Краткое описание машины 2.</p>
+            </div>
+            <div class="car-card">
+                <img src="car3.jpg" alt="Машина 3">
+                <h3>Машина 3</h3>
+                <p>Краткое описание машины 3.</p>
+            </div>
+            <!-- Добавьте больше карточек машин по необходимости -->
+        </div>
+        <aside class="sidebar">
+            <div class="ad-banner">Реклама 1</div>
+            <div class="ad-banner">Реклама 2</div>
+            <div class="ad-banner">Реклама 3</div>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2024 Авто Библиотека. Все права защищены.</p>
+    </footer>
+</body>
+</html>
